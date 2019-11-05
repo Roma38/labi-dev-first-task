@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="./gruvbox-light.css">
+</head>
+<body>
+  <div class="button-wrapper">
+    <button id="button">Remove comments</button>
+  </div>
+
+  <div class="wrapper">
+    <div class="column">
+      <textarea id="input" rows="10" placeholder="Input JavaScript code"></textarea>
+    </div>
+    <div class="column">
+      <pre><code id="output"></code></pre>
+    </div>
+  </div>
+  <script src="./highlight.pack.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
